@@ -1,0 +1,43 @@
+aaaa
+UNIGRAM MODEL:
+
+UNIGRAM:a
+FRENCH: P(a) = 0.096491225 ==> log prob of sentence so far: -1.0155122
+ENGLISH: P(a) = 0.30172414 ==> log prob of sentence so far: -0.52039
+OTHER: P(a) = 0.09322034 ==> log prob of sentence so far: -1.0304893
+
+UNIGRAM:a
+FRENCH: P(a) = 0.096491225 ==> log prob of sentence so far: -2.0310245
+ENGLISH: P(a) = 0.30172414 ==> log prob of sentence so far: -1.04078
+OTHER: P(a) = 0.09322034 ==> log prob of sentence so far: -2.0609787
+
+UNIGRAM:a
+FRENCH: P(a) = 0.096491225 ==> log prob of sentence so far: -3.0465367
+ENGLISH: P(a) = 0.30172414 ==> log prob of sentence so far: -1.5611699
+OTHER: P(a) = 0.09322034 ==> log prob of sentence so far: -3.091468
+
+UNIGRAM:a
+FRENCH: P(a) = 0.096491225 ==> log prob of sentence so far: -4.062049
+ENGLISH: P(a) = 0.30172414 ==> log prob of sentence so far: -2.08156
+OTHER: P(a) = 0.09322034 ==> log prob of sentence so far: -4.1219573
+
+According to the unigram model, the sentence is in English
+------------------------------
+BIGRAM MODEL:
+
+BIGRAM:aa
+FRENCH: P(a|a) = 0.027027028 ==> log prob of sentence so far: -1.5682017
+ENGLISH: P(a|a) = 0.3898305 ==> log prob of sentence so far: -0.4091242
+OTHER: P(a|a) = 0.027027028 ==> log prob of sentence so far: -1.5682017
+
+BIGRAM:aa
+FRENCH: P(a|a) = 0.027027028 ==> log prob of sentence so far: -3.1364033
+ENGLISH: P(a|a) = 0.3898305 ==> log prob of sentence so far: -0.8182484
+OTHER: P(a|a) = 0.027027028 ==> log prob of sentence so far: -3.1364033
+
+BIGRAM:aa
+FRENCH: P(a|a) = 0.027027028 ==> log prob of sentence so far: -4.704605
+ENGLISH: P(a|a) = 0.3898305 ==> log prob of sentence so far: -1.2273725
+OTHER: P(a|a) = 0.027027028 ==> log prob of sentence so far: -4.704605
+
+According to the bigram model, the sentence is in English
